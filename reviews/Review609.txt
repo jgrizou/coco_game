@@ -1,0 +1,30 @@
+Reviewer 2 of ICDL-EPIROB 2014 submission 56
+
+Comments to the author
+======================
+
+This was an intriguing paper.
+I have never read anything like it.
+It is difficult to review.
+There may be questions over its relevance to the
+conference.
+The setting tackled in the experiments is one where there
+is an extremely limited channel of communication and
+absolutely no prior knowledge of meanings. How realistic is
+this setting in human-robot interaction?
+It was interesting to read that humans solve the problem by
+"projecting the interaction into different common frames of
+interaction..."
+This is a very useful insight for human-robot interaction.
+I guess the paper would feel more complete to me if it
+could give an outline of how the same mechanism could be
+implemented in a robot. This is just mentioned in the
+conclusion.
+
+Overall I would say it is an intriguing study from the
+human-human interaction point of view, but the robot-human
+interaction perspective is really only touched on at the
+end.
+
+Some of the writing is not English, e.g. frequent "allows
+to" or use of as: "similar as".

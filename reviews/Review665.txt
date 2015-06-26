@@ -1,0 +1,48 @@
+Reviewer 4 of ICDL-EPIROB 2014 submission 56
+
+Comments to the author
+======================
+
+This paper presents an interesting experiment involving two
+collaborating agents - an architect and a builder, who must
+communicate using a restricted n-bit channel in order to
+achieve the joint activity of constructing a structure
+using Lego blocks. The experiment is constructed in such a
+way that communication is essential and any one agent can't
+act alone. The contribution is to report on a human subject
+experiment and to use the data to illustrate what kinds of
+meanings the participants seemed able to and inclined to
+coordinate on.
+
+While I believe this is a good direction to pursue, and I
+am with the authors on motivation, I would have expected
+the paper to go further in terms of methodology and
+analysis. As it stands, the main contribution of substance
+are the plots on page 4, which are suggestive of what
+people might be doing. Indeed, the dominant point is that
+people seem to use reward signals in reinforcement form
+much more than anything else and they occasionally use cues
+like size, location and group but either not with much
+success or otherwise sparingly. Sone of the failure cases
+suggest that things like 'credit assignment' through this
+n-bit interface seems hard, which is to be expected.
+
+The authors cite a lot of work in evolutionary language
+acquisition, etc., but do not appear familiar with many
+other lines of work that ask the same question. For
+instance, to give two rather diverse related works, the
+following give rigorous theoretical characterisations of
+basically the same game considered by the present paper
+under discussion:
+- O. Goldreich, B. Juba, M. Sudan, A theory of
+goal-oriented communication, J. ACM 59(2), 2012.
+- B. Skyrms, Signals: Evolution, Learning, and Information,
+Oxford University Press, 2012.
+
+Hence, it is unclear to me what the primary contribution of
+this paper is, in terms of what it adds to the conversation
+on language evolution, learning of a language, etc. It is
+an interesting experiment, and there are nuggets of
+interesting suggestions in the data that comes out of it,
+but there isn't a rigorous take away message or theory that
+I can use in follow-up work, etc.
