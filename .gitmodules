@@ -1,0 +1,3 @@
+[submodule "buttonbox"]
+	path = buttonbox
+	url = https://github.com/jgrizou/buttonbox
