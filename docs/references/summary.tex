@@ -1,0 +1,237 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[english]{babel} 
+\usepackage[hmargin=2cm,vmargin=2.5cm]{geometry} 
+
+\usepackage{caption}
+\usepackage{subcaption} 
+\usepackage{float}
+
+\usepackage{graphics}
+\usepackage{graphicx}
+
+\usepackage{comment} 
+\usepackage{paralist}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\newcommand{\degree}{\ensuremath{^\circ}}
+
+\usepackage{hyperref}
+
+\usepackage{color}
+\newcommand{\todo}[1]{{\small\color{red}[#1]}}
+
+
+\usepackage[nonumberlist]{glossaries}
+%\newcommand{\dictentry}[2]{\begin{quotation}\textbf{#1}: #2\end{quotation}}
+\newcommand{\dictentry}[2]{%
+  \newglossaryentry{#1}{name=#1,description={#2}}%
+}
+\makeglossaries
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textsc{Reference summary} \\ [0.2cm]
+{\large \textbf{Last update:} \today}} \\ [0.2cm]
+\end{center}
+
+\begin{abstract}
+This document is meant to summarize the current readings.
+\end{abstract}
+
+\section{Related Work}
+
+\subsection{Experimental Semiotics (ES)}
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Galantucci}
+Galatucci \cite{galantucci2005experimental} uses ES to study the emergence and evolution of communication systems supplementary to computer simulations.
+
+Game 1
+\begin{itemize}
+\item two-by-two grid, with each one move solve game by being in the same room
+\item dyads
+\item shared virtual environment
+\item no speech, no language
+\item round-based
+\item common score
+\item communication 1 -- 2: drawings on pad, quick fade, constant downward drift
+\item communication 2 -- 1: drawings on pad, quick fade, constant downward drift
+\item participants practiced communication medium
+\item end of game: maximum score
+\item measures/graphics: 
+\begin{itemize}
+\item score plot for each pair/run shows convergence
+\item time to solution
+\end{itemize}
+\item{results}
+\begin{itemize}
+\item strategies: learning-by-using (opportunistic), naming procedures (convergence much faster)
+\item sign systems: numeration based, icon based, map based
+\end{itemize}
+\end{itemize}
+
+Game 2, 3
+\begin{itemize}
+\item 2
+\begin{itemize}
+\item same setup as in 1, same participants that were successful in previous game
+\item larger environment
+\item prey captured, when both agents in same room
+\item continuous, prey appeared in another room upon capture
+\end{itemize}
+\item 3
+\begin{itemize}
+\item same setup as in 2, same participants that were successful in previous game
+\item larger environment
+\item two enemies, one for each agent
+\end{itemize}
+\item measures/graphics: 
+\begin{itemize}
+\item score plot for each pair/run shows convergence
+\item time to solution
+\item minimum score
+\end{itemize}
+\item{results}
+\begin{itemize}
+\item 6 out of 8 participant pairs used the same strategy 
+\item sign systems: easily diverge, can integrate new mappings with old ones
+\item importance of silent behavior-coordination (e.g. split search)
+\item parsimony: once sign system has emerged, new signs unrelated to the ones in use were rarely developed.
+\end{itemize}
+\end{itemize} 
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In \cite{galantucci2011experimental}, Galantucci gives an overview of ES research.
+
+Varieties of studies
+\begin{itemize}
+\item referential (e.g. draw pieces of music for a partner to identify, Healey 2000, assign pre-established referents to be communicated)
+\item coordination (e.g. players freely discover/negotiate shared referents, \cite{galantucci2005experimental})
+\item matching (closed set of communication forms, closed set of referents, e.g. communicate about fixed set of geometric figures by combining letters of a fixed set).So our setup after Galantucci was intended as a semiotic matching game, but people generally do not seem to use the buttons to describe/refer to the bricks?
+\end{itemize}
+
+Themes
+\begin{itemize}
+\item early emergence of linguistic structure
+\begin{itemize}
+\item emergence of combinatoriality (e.g. in drawings: recurrence of basic forms across signs, the faster forms fade, the more combinatoriality)
+\item emergence of compositionality (e.g. having one symbol for circle, one for insert, one for position)
+\end{itemize}
+\item social manipulations
+\begin{itemize}
+\item symbols (the emergence of symbols is what we also look at. the relationship between the button presses and what they stand for is arbitrary)
+\item evolution of systems within/across generations (e.g. computer simulations, Cangelosi and Parisi 2002, but also ES studies)
+\end{itemize}
+\end{itemize}
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\subsubsection{De Ruiter}
+De Ruiter \cite{de2010exploring}'s main argument, he wants to test is that for successful communication, people need a special kind of capacity, the `interactional intelligence'. (sender: recipient design, receiver: intention recognition), conventions ease processing
+
+The Tacit Communication Game
+
+1
+\begin{itemize}
+\item Focusses on the cognitive processes in individuals, that are responsible for the development and recognition of newly crewted conventions.
+\item reaction times and processing load
+\item three-by-three grid, both agents operate shape, sender sees goal configuration (position and rotation)
+\item goal: sender moves own object in goal configuration and receiver in his/her respective goal configuration
+\item communication sender - receiver: moves and rotations
+\item communication receiver - sender: moves and rotations
+\item planning time for sender, interpretation time for receiver
+\item limited time for predesigned turns
+\item round-based
+\item binary score, correct/incorrect
+\item individual training, joint training
+\item measures / graphics
+\begin{itemize}
+\item planning time of sender, receiver and time to achieve success
+\end{itemize}
+\item results
+\begin{itemize}
+\item manner (here:timing) used to indicate a position, `'
+\item $83\%$ successful
+\end{itemize}
+\end{itemize}
+
+2 
+\begin{itemize}
+	\item Does feedback facilitate communication? (Are senders applying fixed strategy, which receivers simply have to decode?)
+	\item on half of trials sender sees receivers moves, on the other half s/he does not. Is success rate influenced?
+	\item additional measures
+	\begin{itemize}
+		\item qualitative analysis
+	\end{itemize}
+	\item results
+	\begin{itemize}
+		\item comparing success rates: two-way communication is involved. effectiveness of communication increases when senders have access to receiver feedback.
+		\item participants need more planning time for hard trials than easy ones.
+		\item if a problem is hard, it is hard for both senders and receivers.
+	\end{itemize}
+\end{itemize}
+
+3
+\begin{itemize}
+\item communicative (signal the goal configuration of receiver to them, receiver does not know goal) vs. non-communicative (go to receiver's goal and match orientation as closely as possible then go to own goal, receiver knows their goal)
+\item additional measures
+	\begin{itemize}
+		\item mean pause times in senders' moves
+	\end{itemize}
+\item results
+\begin{itemize}
+\item additional processing load for sender in communicative than non-communicative trials
+\item the harder the communicative problem, the more planning time is needed by both participants (not dependent on number of moves performed per trial).
+\end{itemize}
+\end{itemize}
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\subsubsection{Griffiths}
+Griffiths et al. \cite{griffiths2012bottom} in their setup investigate learning of categories.
+
+\begin{itemize}
+\item score
+\item tutor's play several trials with changing learners
+\item it is possible to solve the game alone by exploration, without a tutor's feedback
+\item tutor and learner have the same view on the workspace. Tutor knows how his/her feedback is perceived.
+\item learners might already expect yes/no feedback as they are told in the instructions that there are right and wrong ways of manipulating the objects.
+\item measures/graphics
+\begin{itemize}
+\item understand: learner's interpretation $=$ tutor's intended meaning; misinterpret: learner's interpretation $~=$ tutor's intended meaning; ignore: no learner interpretation for tutor's feedback.
+\item qualitative description
+\item interview
+\item number of button events for types of feedback 
+\item number of button events understood, misinterpreted and ignored
+\end{itemize}
+\item results
+\begin{itemize}
+\item most common feedback: yes, no, concrete instructions (place, shake)
+\item learners who ignored less signals, achieved better performance
+\item general strategy in tutors to simplify strategy from learner to learner
+\item \# concrete instructions $>$ negative feedback $<$ positive feedback
+\item negative correlation between negative feedback and task success
+\end{itemize}
+\end{itemize}
+
+\subsection{Differences with our setup}
+
+\todo{Galantucci: both sides can generate signals. Game 1: score and round-based, Game 2,3: continuous, score. De Ruiter: involves training, turn-based, several trials, binary "score", variant 1: both players see same scene, variant 2: sender does not see sender agent for half of the trials. Griffiths: score and several episodes. asymmetric, but tutor and learner have the same view on the `workspace'. Us: No score, the user decides when to stop. the architect does not know how exactly his/her feedback is perceived.} 
+
+\section{Motivation}
+
+\subsection{Teleological Stance}
+One-year old children do not have a ``theory-of-mind'' yet (emerges with 4 years of age), but they can interpret others'€™ actions as being goal-directed, identify the most efficient means to reach a goal, and expect actors to perform this most efficient means. 
+Gergely and Csibra put forward an explanation for one-year old infants' interpretation of goal-directed actions \cite{gergely2003teleological}. Instead of an innate mentalistic stance, according to which infants attribute desires and beliefs to subjects (meaning e.g. ``they put themselves into the actor's place''€™), the authors suggest that these mentalistic capabilities develop later on and they propose an early teleological stance which is an interpretational system only taking into account the reality states: action, goal state, and situational constraints. The teleological stance follows the principle of rational action stating that actors will take the most rational action available to reach a goal given the situational constraints. \todo{JG: Do you understand how the experiment presented in figure 1 can tell the difference between teleological and mentalistic representation? AV: It doesn't. This violation-of-expectation experiment simply demonstrates the infants' ability to understand goal-directed actions. The authors assumption (based on research in developmental psychology) is that infants up to one year of age are not capable to use a theory of mind, yet. JG: Maybe we should read about ``theory-of-mind'' and why it is said to emerge around 4. Do we want to argue from the teleological representation perspective, our users already have good ``theory-of-mind''.}
+
+
+
+\bibliographystyle{ieeetr}
+\bibliography{ref}
+
+\glsaddall
+\printglossary
+\end{document}

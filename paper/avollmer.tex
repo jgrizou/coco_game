@@ -1,0 +1,66 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+% \usepackage{caption}
+\usepackage[pdftex]{graphicx}
+% declare the path(s) where your graphic files are
+% \graphicspath{media/}
+% and their extensions so you won't have to specify these with
+% every instance of \includegraphics
+\DeclareGraphicsExtensions{.pdf,.jpeg,.JPG, .png, .jpg}
+
+\usepackage[tight,footnotesize]{subfigure}
+
+\usepackage{color}
+\usepackage{array}
+\newcommand{\todo}[1]{{\color{red}**[#1]**}}
+
+%%%% CHEATING CODE %%%%
+% \renewcommand{\baselinestretch}{.995}
+%\renewcommand{\textfloatsep}{0.99ex}
+%%%% CHEATING CODE %%%%
+
+\begin{document}
+
+\title{Studying the Co-Construction of Interaction Protocols in Collaborative Tasks with Humans}
+
+\author{\IEEEauthorblockN{Anna-Lisa Vollmer\IEEEauthorrefmark{1},
+Jonathan Grizou\IEEEauthorrefmark{1},
+Manuel Lopes\IEEEauthorrefmark{1},
+Katharina Rohlfing\IEEEauthorrefmark{2} and
+Pierre-Yves Oudeyer\IEEEauthorrefmark{1}}
+\IEEEauthorblockA{\IEEEauthorrefmark{1}Flowers Team,
+INRIA / ENSTA-Paristech,
+France\\ Email: \{anna-lisa.vollmer, jonathan.grizou, manuel.lopes, pierre-yves.oudeyer\}@inria.fr}
+\IEEEauthorblockA{\IEEEauthorrefmark{2}CITEC, Emergentist Semantics,
+Bielefeld University, Germany\\
+Email: kjr@uni-bielefeld.de}}
+
+\maketitle
+
+\begin{abstract}
+In interaction, humans align and effortlessly create common ground in communication, allowing efficient collaboration in widely diverse contexts.
+Robots are still far away from being able to adapt in such a flexible manner with non-expert humans to complete collaborative tasks. Challenges include the capability to understand unknown feedback or guidance signals, to make sense of what they refer to depending on their timing and context, and to agree on how to organize the interaction into roles and turns. 
+As a first step in approaching this issue, we investigate here the processes used by humans to negotiate a protocol of interaction when they do not already share one.
+We introduce a new experimental setup, where two humans have to collaborate to solve a task. The channels of communication they can use are constrained and force them to invent and agree on a shared interaction protocol in order to solve the task. These constraints allow us to analyze how a communication protocol is progressively established through the interplay and history of individual actions. We report preliminary results obtained from a pilot study, and discuss how the understanding of strategies used by humans could be useful to achieve more flexible HRI.
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+\input{introduction.tex}
+\input{relatedwork.tex}
+\input{method.tex}
+\input{results.tex}
+%\input{supplementary.tex}
+\input{conclusion.tex}
+
+\section*{Acknowledgment}
+
+We would like to thanks Chlo\'e Rozenbaum for her help in designing the final version of the setup and in conducting the pilot study. This work has been partially supported by INRIA and the ERC grant EXPLORERS 24007.
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,references}
+
+\end{document}
+
+

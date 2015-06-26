@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[english]{babel} 
+\usepackage[hmargin=2cm,vmargin=2.5cm]{geometry} 
+
+\usepackage{caption}
+\usepackage{subcaption} 
+\usepackage{float}
+
+\usepackage{graphics}
+\usepackage{graphicx}
+
+\usepackage{comment} 
+\usepackage{paralist}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\graphicspath{{.}{images/}}
+\newcommand{\degree}{\ensuremath{^\circ}}
+
+\usepackage{hyperref}
+
+\usepackage[nonumberlist]{glossaries}
+%\newcommand{\dictentry}[2]{\begin{quotation}\textbf{#1}: #2\end{quotation}}
+\newcommand{\dictentry}[2]{%
+  \newglossaryentry{#1}{name=#1,description={#2}}%
+}
+\makeglossaries
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textsc{Alignment in asymmetric interactions \\ First thoughts and results} \\ [0.2cm]
+{\large \textbf{Last update:} \today}} \\ [0.2cm]
+\end{center}
+
+\begin{abstract}
+This document is meant to summarize the current ideas and initial results from the human experiments we performed this summer. Those experiments were initially designed to study communication between humans in situation similar to simple human-robot interaction scenario.
+\end{abstract}
+
+%comment unwanted section
+\input{paper_thought.tex}
+\input{analysis.tex}
+\input{setup.tex}
+
+\bibliographystyle{ieeetr}
+\bibliography{ref}
+
+\glsaddall
+\printglossary
+\end{document}
